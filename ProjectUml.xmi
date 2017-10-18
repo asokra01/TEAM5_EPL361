@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ky-dgLOgEee7sYPkE4-GPA" name="model">
+  <eAnnotations xmi:id="_ky-dgbOgEee7sYPkE4-GPA" source="genmymodel">
+    <details xmi:id="_ky-dgrOgEee7sYPkE4-GPA" key="uuid" value="_qiWogLNbEee7sYPkE4-GPA"/>
+    <details xmi:id="_ky-dg7OgEee7sYPkE4-GPA" key="author" value="avgerinos95"/>
+  </eAnnotations>
+  <packageImport xmi:id="_ky-dhLOgEee7sYPkE4-GPA">
+    <eAnnotations xmi:id="_ky-dhbOgEee7sYPkE4-GPA" source="genmymodel">
+      <details xmi:id="_ky-dhrOgEee7sYPkE4-GPA" key="uuid" value="_qiWogbNbEee7sYPkE4-GPA"/>
+    </eAnnotations>
+    <importedPackage href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#/"/>
+  </packageImport>
+  <packagedElement xsi:type="uml:Class" xmi:id="_ky-dh7OgEee7sYPkE4-GPA" name="Performances">
+    <eAnnotations xmi:id="_ky-diLOgEee7sYPkE4-GPA" source="genmymodel">
+      <details xmi:id="_ky-dibOgEee7sYPkE4-GPA" key="uuid" value="_oW9bwJWKEDW7APxihj4p6A"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_ky-dirOgEee7sYPkE4-GPA" name="Name">
+      <eAnnotations xmi:id="_ky-di7OgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-djLOgEee7sYPkE4-GPA" key="uuid" value="_SsuugJWLEDW7APxihj4p6A"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ky-djbOgEee7sYPkE4-GPA" name="DateTime" type="_ky-d7bOgEee7sYPkE4-GPA">
+      <eAnnotations xmi:id="_ky-djrOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-dj7OgEee7sYPkE4-GPA" key="uuid" value="_UoJSUJWLEDW7APxihj4p6A"/>
+      </eAnnotations>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_ky-dkLOgEee7sYPkE4-GPA" name="UpdateDetails">
+      <eAnnotations xmi:id="_ky-dkbOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-dkrOgEee7sYPkE4-GPA" key="uuid" value="_VGjFkJWLEDW7APxihj4p6A"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_ky-dk7OgEee7sYPkE4-GPA" name="returnParameter" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_ky-dlLOgEee7sYPkE4-GPA" source="genmymodel">
+          <details xmi:id="_ky-dlbOgEee7sYPkE4-GPA" key="uuid" value="_VGiegJWLEDW7APxihj4p6A"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_ky-dlrOgEee7sYPkE4-GPA" name="Admin">
+    <eAnnotations xmi:id="_ky-dl7OgEee7sYPkE4-GPA" source="genmymodel">
+      <details xmi:id="_ky-dmLOgEee7sYPkE4-GPA" key="uuid" value="_XVZiwJWLEDW7APxihj4p6A"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_ky-dmbOgEee7sYPkE4-GPA" name="Name" visibility="private">
+      <eAnnotations xmi:id="_ky-dmrOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-dm7OgEee7sYPkE4-GPA" key="uuid" value="_CXR7UJWREDW7APxihj4p6A"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ky-dnLOgEee7sYPkE4-GPA" name="Password" visibility="private">
+      <eAnnotations xmi:id="_ky-dnbOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-dnrOgEee7sYPkE4-GPA" key="uuid" value="_CpqEwJWREDW7APxihj4p6A"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_ky-dn7OgEee7sYPkE4-GPA" name="AddPerformanceRecords">
+      <eAnnotations xmi:id="_ky-doLOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-dobOgEee7sYPkE4-GPA" key="uuid" value="_Ele4QZWREDW7APxihj4p6A"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_ky-dorOgEee7sYPkE4-GPA" name="returnParameter" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_ky-do7OgEee7sYPkE4-GPA" source="genmymodel">
+          <details xmi:id="_ky-dpLOgEee7sYPkE4-GPA" key="uuid" value="_Ele4QJWREDW7APxihj4p6A"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ky-dpbOgEee7sYPkE4-GPA" name="UpdatePerformanceRecords">
+      <eAnnotations xmi:id="_ky-dprOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-dp7OgEee7sYPkE4-GPA" key="uuid" value="_E7m5QZWREDW7APxihj4p6A"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_ky-dqLOgEee7sYPkE4-GPA" name="returnParameter" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_ky-dqbOgEee7sYPkE4-GPA" source="genmymodel">
+          <details xmi:id="_ky-dqrOgEee7sYPkE4-GPA" key="uuid" value="_E7m5QJWREDW7APxihj4p6A"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ky-dq7OgEee7sYPkE4-GPA" name="DeletePerformanceRecors">
+      <eAnnotations xmi:id="_ky-drLOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-drbOgEee7sYPkE4-GPA" key="uuid" value="_FQAb8ZWREDW7APxihj4p6A"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_ky-drrOgEee7sYPkE4-GPA" name="returnParameter" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_ky-dr7OgEee7sYPkE4-GPA" source="genmymodel">
+          <details xmi:id="_ky-dsLOgEee7sYPkE4-GPA" key="uuid" value="_FQAb8JWREDW7APxihj4p6A"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_ky-dsbOgEee7sYPkE4-GPA" name="Actors Biography">
+    <eAnnotations xmi:id="_ky-dsrOgEee7sYPkE4-GPA" source="genmymodel">
+      <details xmi:id="_ky-ds7OgEee7sYPkE4-GPA" key="uuid" value="_Y540UJWLEDW7APxihj4p6A"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_ky-dtLOgEee7sYPkE4-GPA" name="Name">
+      <eAnnotations xmi:id="_ky-dtbOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-dtrOgEee7sYPkE4-GPA" key="uuid" value="_5QJ-wJWQEDW7APxihj4p6A"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ky-dt7OgEee7sYPkE4-GPA" name="Age">
+      <eAnnotations xmi:id="_ky-duLOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-dubOgEee7sYPkE4-GPA" key="uuid" value="_6LC5sJWQEDW7APxihj4p6A"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_ky-durOgEee7sYPkE4-GPA" name="ShowInfo">
+      <eAnnotations xmi:id="_ky-du7OgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-dvLOgEee7sYPkE4-GPA" key="uuid" value="_6lmuwZWQEDW7APxihj4p6A"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_ky-dvbOgEee7sYPkE4-GPA" name="returnParameter" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_ky-dvrOgEee7sYPkE4-GPA" source="genmymodel">
+          <details xmi:id="_ky-dv7OgEee7sYPkE4-GPA" key="uuid" value="_6lmuwJWQEDW7APxihj4p6A"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_ky-dwLOgEee7sYPkE4-GPA" name="User(Visitor)">
+    <eAnnotations xmi:id="_ky-dwbOgEee7sYPkE4-GPA" source="genmymodel">
+      <details xmi:id="_ky-dwrOgEee7sYPkE4-GPA" key="uuid" value="_e5ls8JWLEDW7APxihj4p6A"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_ky-dw7OgEee7sYPkE4-GPA" name="Name" visibility="private">
+      <eAnnotations xmi:id="_ky-dxLOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-dxbOgEee7sYPkE4-GPA" key="uuid" value="_GpewUJWREDW7APxihj4p6A"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_ky-dxrOgEee7sYPkE4-GPA" name="ViewPerformances">
+      <eAnnotations xmi:id="_ky-dx7OgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-dyLOgEee7sYPkE4-GPA" key="uuid" value="_Her6AZWREDW7APxihj4p6A"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_ky-dybOgEee7sYPkE4-GPA" name="returnParameter" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_ky-dyrOgEee7sYPkE4-GPA" source="genmymodel">
+          <details xmi:id="_ky-dy7OgEee7sYPkE4-GPA" key="uuid" value="_Her6AJWREDW7APxihj4p6A"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ky-dzLOgEee7sYPkE4-GPA" name="BookTickets">
+      <eAnnotations xmi:id="_ky-dzbOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-dzrOgEee7sYPkE4-GPA" key="uuid" value="_H2jAYZWREDW7APxihj4p6A"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_ky-dz7OgEee7sYPkE4-GPA" name="returnParameter" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_ky-d0LOgEee7sYPkE4-GPA" source="genmymodel">
+          <details xmi:id="_ky-d0bOgEee7sYPkE4-GPA" key="uuid" value="_H2jAYJWREDW7APxihj4p6A"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_ky-d0rOgEee7sYPkE4-GPA" name="Tickets">
+    <eAnnotations xmi:id="_ky-d07OgEee7sYPkE4-GPA" source="genmymodel">
+      <details xmi:id="_ky-d1LOgEee7sYPkE4-GPA" key="uuid" value="_gCRzUJWLEDW7APxihj4p6A"/>
+    </eAnnotations>
+    <generalization xmi:id="_ky-d1bOgEee7sYPkE4-GPA" general="_ky-dwLOgEee7sYPkE4-GPA">
+      <eAnnotations xmi:id="_ky-d1rOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-d17OgEee7sYPkE4-GPA" key="uuid" value="_WtnTkJWXEDW7APxihj4p6A"/>
+      </eAnnotations>
+    </generalization>
+    <ownedAttribute xmi:id="_ky-d2LOgEee7sYPkE4-GPA" name="PerformanceName" visibility="private">
+      <eAnnotations xmi:id="_ky-d2bOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-d2rOgEee7sYPkE4-GPA" key="uuid" value="_Mqa_EJWREDW7APxihj4p6A"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ky-d27OgEee7sYPkE4-GPA" name="PerformanceID" visibility="private">
+      <eAnnotations xmi:id="_ky-d3LOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-d3bOgEee7sYPkE4-GPA" key="uuid" value="_NHLzkJWREDW7APxihj4p6A"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ky-d3rOgEee7sYPkE4-GPA" name="Date" visibility="private" type="_ky-d7bOgEee7sYPkE4-GPA">
+      <eAnnotations xmi:id="_ky-d37OgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-d4LOgEee7sYPkE4-GPA" key="uuid" value="_NnttwJWREDW7APxihj4p6A"/>
+      </eAnnotations>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ky-d4bOgEee7sYPkE4-GPA" name="Time" visibility="private" type="_ky-d87OgEee7sYPkE4-GPA">
+      <eAnnotations xmi:id="_ky-d4rOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-d47OgEee7sYPkE4-GPA" key="uuid" value="_OO97AJWREDW7APxihj4p6A"/>
+      </eAnnotations>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_ky-d5LOgEee7sYPkE4-GPA" name="UpdateSeatAvailable">
+      <eAnnotations xmi:id="_ky-d5bOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-d5rOgEee7sYPkE4-GPA" key="uuid" value="_OphJAZWREDW7APxihj4p6A"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_ky-d57OgEee7sYPkE4-GPA" name="returnParameter" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_ky-d6LOgEee7sYPkE4-GPA" source="genmymodel">
+          <details xmi:id="_ky-d6bOgEee7sYPkE4-GPA" key="uuid" value="_OphJAJWREDW7APxihj4p6A"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:DataType" xmi:id="_ky-d6rOgEee7sYPkE4-GPA" name="DataType">
+    <eAnnotations xmi:id="_ky-d67OgEee7sYPkE4-GPA" source="genmymodel">
+      <details xmi:id="_ky-d7LOgEee7sYPkE4-GPA" key="uuid" value="_AtHxgJWPEDW7APxihj4p6A"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:DataType" xmi:id="_ky-d7bOgEee7sYPkE4-GPA" name="date">
+    <eAnnotations xmi:id="_ky-d7rOgEee7sYPkE4-GPA" source="genmymodel">
+      <details xmi:id="_ky-d77OgEee7sYPkE4-GPA" key="uuid" value="_E7pAYJWPEDW7APxihj4p6A"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:DataType" xmi:id="_ky-d8LOgEee7sYPkE4-GPA" name="double">
+    <eAnnotations xmi:id="_ky-d8bOgEee7sYPkE4-GPA" source="genmymodel">
+      <details xmi:id="_ky-d8rOgEee7sYPkE4-GPA" key="uuid" value="_BH69gJWXEDW7APxihj4p6A"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:DataType" xmi:id="_ky-d87OgEee7sYPkE4-GPA" name="time">
+    <eAnnotations xmi:id="_ky-d9LOgEee7sYPkE4-GPA" source="genmymodel">
+      <details xmi:id="_ky-d9bOgEee7sYPkE4-GPA" key="uuid" value="_F7lg0JWXEDW7APxihj4p6A"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_ky-d9rOgEee7sYPkE4-GPA" name="Performance_Actors Biography" memberEnd="_ky-d-bOgEee7sYPkE4-GPA _ky-d_rOgEee7sYPkE4-GPA" navigableOwnedEnd="_ky-d-bOgEee7sYPkE4-GPA _ky-d_rOgEee7sYPkE4-GPA">
+    <eAnnotations xmi:id="_ky-d97OgEee7sYPkE4-GPA" source="genmymodel">
+      <details xmi:id="_ky-d-LOgEee7sYPkE4-GPA" key="uuid" value="_Z6JhAZWXEDW7APxihj4p6A"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_ky-d-bOgEee7sYPkE4-GPA" name="Actors Biography" type="_ky-dsbOgEee7sYPkE4-GPA" association="_ky-d9rOgEee7sYPkE4-GPA">
+      <eAnnotations xmi:id="_ky-d-rOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-d-7OgEee7sYPkE4-GPA" key="uuid" value="_Z6I58JWXEDW7APxihj4p6A"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_ky-d_LOgEee7sYPkE4-GPA" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_ky-d_bOgEee7sYPkE4-GPA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_ky-d_rOgEee7sYPkE4-GPA" name="Performances" type="_ky-dh7OgEee7sYPkE4-GPA" association="_ky-d9rOgEee7sYPkE4-GPA">
+      <eAnnotations xmi:id="_ky-d_7OgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-eALOgEee7sYPkE4-GPA" key="uuid" value="_Z6JhAJWXEDW7APxihj4p6A"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_ky-eAbOgEee7sYPkE4-GPA" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_ky-eArOgEee7sYPkE4-GPA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_ky-eA7OgEee7sYPkE4-GPA" name="Performance_Admin" memberEnd="_ky-eBrOgEee7sYPkE4-GPA _ky-eC7OgEee7sYPkE4-GPA" navigableOwnedEnd="_ky-eBrOgEee7sYPkE4-GPA _ky-eC7OgEee7sYPkE4-GPA">
+    <eAnnotations xmi:id="_ky-eBLOgEee7sYPkE4-GPA" source="genmymodel">
+      <details xmi:id="_ky-eBbOgEee7sYPkE4-GPA" key="uuid" value="_cXUHAZWXEDW7APxihj4p6A"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_ky-eBrOgEee7sYPkE4-GPA" name="Admin" type="_ky-dlrOgEee7sYPkE4-GPA" association="_ky-eA7OgEee7sYPkE4-GPA">
+      <eAnnotations xmi:id="_ky-eB7OgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-eCLOgEee7sYPkE4-GPA" key="uuid" value="_cXTf8JWXEDW7APxihj4p6A"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_ky-eCbOgEee7sYPkE4-GPA" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_ky-eCrOgEee7sYPkE4-GPA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_ky-eC7OgEee7sYPkE4-GPA" name="Performances" type="_ky-dh7OgEee7sYPkE4-GPA" association="_ky-eA7OgEee7sYPkE4-GPA">
+      <eAnnotations xmi:id="_ky-eDLOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-eDbOgEee7sYPkE4-GPA" key="uuid" value="_cXUHAJWXEDW7APxihj4p6A"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_ky-eDrOgEee7sYPkE4-GPA"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_ky-eD7OgEee7sYPkE4-GPA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_ky-eELOgEee7sYPkE4-GPA" name="User(Visitor)_Actors Biography" memberEnd="_ky-eE7OgEee7sYPkE4-GPA _ky-eGLOgEee7sYPkE4-GPA" navigableOwnedEnd="_ky-eE7OgEee7sYPkE4-GPA _ky-eGLOgEee7sYPkE4-GPA">
+    <eAnnotations xmi:id="_ky-eEbOgEee7sYPkE4-GPA" source="genmymodel">
+      <details xmi:id="_ky-eErOgEee7sYPkE4-GPA" key="uuid" value="_KwJfMZWbEDW7APxihj4p6A"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_ky-eE7OgEee7sYPkE4-GPA" name="Actors Biography" type="_ky-dsbOgEee7sYPkE4-GPA" association="_ky-eELOgEee7sYPkE4-GPA">
+      <eAnnotations xmi:id="_ky-eFLOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-eFbOgEee7sYPkE4-GPA" key="uuid" value="_KwI4IJWbEDW7APxihj4p6A"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_ky-eFrOgEee7sYPkE4-GPA" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_ky-eF7OgEee7sYPkE4-GPA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_ky-eGLOgEee7sYPkE4-GPA" name="User(Visitor)" type="_ky-dwLOgEee7sYPkE4-GPA" association="_ky-eELOgEee7sYPkE4-GPA">
+      <eAnnotations xmi:id="_ky-eGbOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-eGrOgEee7sYPkE4-GPA" key="uuid" value="_KwJfMJWbEDW7APxihj4p6A"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_ky-eG7OgEee7sYPkE4-GPA" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_ky-eHLOgEee7sYPkE4-GPA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_ky-eHbOgEee7sYPkE4-GPA" name="User(Visitor)_Performances" memberEnd="_ky-eILOgEee7sYPkE4-GPA _ky-eJbOgEee7sYPkE4-GPA" navigableOwnedEnd="_ky-eILOgEee7sYPkE4-GPA _ky-eJbOgEee7sYPkE4-GPA">
+    <eAnnotations xmi:id="_ky-eHrOgEee7sYPkE4-GPA" source="genmymodel">
+      <details xmi:id="_ky-eH7OgEee7sYPkE4-GPA" key="uuid" value="_LqEw0JWbEDW7APxihj4p6A"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_ky-eILOgEee7sYPkE4-GPA" name="Performances" type="_ky-dh7OgEee7sYPkE4-GPA" association="_ky-eHbOgEee7sYPkE4-GPA">
+      <eAnnotations xmi:id="_ky-eIbOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-eIrOgEee7sYPkE4-GPA" key="uuid" value="_LqDisJWbEDW7APxihj4p6A"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_ky-eI7OgEee7sYPkE4-GPA" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_ky-eJLOgEee7sYPkE4-GPA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_ky-eJbOgEee7sYPkE4-GPA" name="User(Visitor)" type="_ky-dwLOgEee7sYPkE4-GPA" association="_ky-eHbOgEee7sYPkE4-GPA">
+      <eAnnotations xmi:id="_ky-eJrOgEee7sYPkE4-GPA" source="genmymodel">
+        <details xmi:id="_ky-eJ7OgEee7sYPkE4-GPA" key="uuid" value="_LqDisZWbEDW7APxihj4p6A"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_ky-eKLOgEee7sYPkE4-GPA" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_ky-eKbOgEee7sYPkE4-GPA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
